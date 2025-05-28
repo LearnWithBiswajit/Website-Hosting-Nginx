@@ -2,10 +2,12 @@
 Portfolio
 1. git clone https://github.com/LearnWithBiswajit/Website-Hosting-Nginx.git
 2. cd Website-Hosting-Nginx
-3. Install Docker
-4. Create Docker file or You can use My Dockerfile
-5. docker bulid -t mypage .
-6. docker run -d -p 8081:80 -v $(pwd):/usr/share/nginx/html mywebnginx
+3. Install Docker and docker compose
+4. Create Docker Compose file or You can use My DockerComposefile
+5. docker-compose -p monster up -d
+6. ##########docker bulid -t mypage .##############Privious Version Static Page
+7.
+8. docker run -d -p 8081:80 -v $(pwd):/usr/share/nginx/html mywebnginx
 
 
 ======================Boom================================
