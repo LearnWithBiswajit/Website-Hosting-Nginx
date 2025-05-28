@@ -4,10 +4,11 @@ Portfolio
 2. cd Website-Hosting-Nginx
 3. Install Docker and docker compose
 4. Create Docker Compose file or You can use My DockerComposefile
-5. docker-compose -p monster up -d
-6. ##########docker bulid -t mypage .##############Privious Version Static Page
-7.
-8. docker run -d -p 8081:80 -v $(pwd):/usr/share/nginx/html mywebnginx
+5. Compose File Change IP address for as Server IP where you want to host serve
+6. docker-compose -p monster up -d
+7. ##########docker bulid -t mypage .##############Privious Version Static Page
+8.
+9. docker run -d -p 8081:80 -v $(pwd):/usr/share/nginx/html mywebnginx
 
 
 ======================Boom================================
