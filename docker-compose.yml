@@ -6,7 +6,7 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     environment:
-      - BASE_API_URL=http://10.10.87.75:3000
+      - BASE_API_URL=http://${HOST_IP}:3000
     ports:
       - "8080:80"
     depends_on:
